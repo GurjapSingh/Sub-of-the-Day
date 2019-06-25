@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'subfont';
+  src: url('Font/subway-webfont.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  url('Font/subway-webfont.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+body {
+  background-image: url("sandwhich.jpg");
+  background-size: cover;
+  background-position: center; 
+}
+
+.jumbotron {
+  color: #FFCB0A;
+  background: #009743;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+ border-color: #FFCB0A;
+}
+
+h1 {
+  font-family: subfont;
+  font-size: 75px;
+}
